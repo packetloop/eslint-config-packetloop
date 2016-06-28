@@ -36,7 +36,8 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "eslint-find-rules --unused",
-    "test": "npm run --silent lint"
+    "test": "npm run --silent lint",
+    "postversion": "git push --follow-tags"
   },
   "dependencies": {
     "eslint-config-airbnb": "^9",
