@@ -1,4 +1,4 @@
-# packetloop-node-eslint-rules
+# eslint-config-packetloop
 
 
 ESLint package for Node and React
@@ -7,7 +7,7 @@ ESLint package for Node and React
 ## Installation
 
 ```sh
-npm install --save-dev eslint packetloop/node-eslint-rules
+npm install --save-dev eslint packetloop/eslint-config-packetloop
 ```
 
 ## Configuration
@@ -16,7 +16,7 @@ npm install --save-dev eslint packetloop/node-eslint-rules
 touch .eslintrc
 
 echo '{
-  "extends": "packetloop-node-eslint-rules"
+  "extends": "packetloop"
 }' > .eslintrc
 ```
 

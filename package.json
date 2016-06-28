@@ -7,7 +7,7 @@
     "url": "https://twitter.com/@nkbtnk"
   },
   "bugs": {
-    "url": "https://github.com/packetloop/node-eslint-rules/issues"
+    "url": "https://github.com/packetloop/eslint-config-packetloop/issues"
   },
   "contributors": [
     {
@@ -17,7 +17,7 @@
     }
   ],
   "description": "Packetloop's NodeJS ESLint config, following Airbnb styleguide",
-  "homepage": "https://github.com/packetloop/node-eslint-rules",
+  "homepage": "https://github.com/packetloop/eslint-config-packetloop",
   "keywords": [
     "packetloop",
     "eslint",
@@ -31,7 +31,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/packetloop/node-eslint-rules.git"
+    "url": "git+https://github.com/packetloop/eslint-config-packetloop.git"
   },
   "scripts": {
     "lint": "eslint .",
