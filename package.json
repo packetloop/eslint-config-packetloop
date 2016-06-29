@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "eslint-config-packetloop",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Nik Butenko",
     "email": "nik@butenko.me",
