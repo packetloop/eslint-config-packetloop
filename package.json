@@ -1,24 +1,21 @@
 {
-  "private": true,
-  "name": "eslint-config-packetloop",
+  "name": "@packetloop/eslint-config-packetloop",
   "version": "1.0.4",
-  "author": {
-    "name": "Nik Butenko",
-    "email": "nik@butenko.me",
-    "url": "https://twitter.com/@nkbtnk"
+  "publishConfig": {
+    "registry": "https://api.bintray.com/npm/arbornetworks/packetloop"
   },
-  "bugs": {
-    "url": "https://github.com/packetloop/eslint-config-packetloop/issues"
-  },
-  "contributors": [
-    {
-      "name": "Nik Butenko",
-      "email": "nik@butenko.me",
-      "url": "https://twitter.com/@nkbtnk"
-    }
-  ],
   "description": "Packetloop's NodeJS ESLint config, following Airbnb styleguide",
-  "homepage": "https://github.com/packetloop/eslint-config-packetloop",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "eslint-find-rules --unused",
+    "test": "npm run --silent lint",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/packetloop/eslint-config-packetloop.git"
+  },
   "keywords": [
     "packetloop",
     "eslint",
@@ -28,18 +25,23 @@
     "javascript",
     "styleguide"
   ],
+  "author": {
+    "name": "Nik Butenko",
+    "email": "nik@butenko.me",
+    "url": "https://twitter.com/@nkbtnk"
+  },
   "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/packetloop/eslint-config-packetloop.git"
+  "contributors": [
+    {
+      "name": "Nik Butenko",
+      "email": "nik@butenko.me",
+      "url": "https://twitter.com/@nkbtnk"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/packetloop/eslint-config-packetloop/issues"
   },
-  "scripts": {
-    "lint": "eslint .",
-    "pretest": "eslint-find-rules --unused",
-    "test": "npm run --silent lint",
-    "postversion": "git push --follow-tags"
-  },
+  "homepage": "https://github.com/packetloop/eslint-config-packetloop",
   "dependencies": {
     "eslint-config-airbnb": "^9",
     "eslint-config-airbnb-base": "^3",
