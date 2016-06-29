@@ -3,5 +3,10 @@ module.exports = {
     'eslint-config-airbnb-base',
     './rules/packetloop'
   ].map(require.resolve),
-  rules: {}
+  rules: {},
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
 };

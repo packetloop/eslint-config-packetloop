@@ -4,5 +4,10 @@ module.exports = {
     './rules/packetloop',
     './rules/react'
   ].map(require.resolve),
-  rules: {}
+  rules: {},
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
 };
