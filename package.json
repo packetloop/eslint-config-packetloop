@@ -1,6 +1,6 @@
 {
   "name": "@packetloop/eslint-config-packetloop",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publishConfig": {
     "registry": "https://api.bintray.com/npm/arbornetworks/packetloop"
   },
