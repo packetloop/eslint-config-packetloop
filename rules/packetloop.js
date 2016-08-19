@@ -21,10 +21,32 @@ module.exports = {
     'no-unused-vars': [
       2, {varsIgnorePattern: '^_', argsIgnorePattern: '^_'}
     ],
+    'no-mixed-operators': 0,
+    'operator-assignment': [2, 'never'],
 
 
     // Imports
     'import/no-unresolved': [2, {ignore: ['^promise?']}],
+    // TODO: switch on
+    'import/imports-first': 0,
+    // TODO: switch on
+    'import/newline-after-import': 0,
+    // TODO: switch on
+    'import/order': [
+      0, {
+        'groups': [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling'
+        ],
+        'newlines-between': 'always'
+      }
+    ],
+    'import/prefer-default-export': 0,
+    'import/no-extraneous-dependencies': 0,
+
 
     // No Classes, please
     'no-class/no-class': 2
