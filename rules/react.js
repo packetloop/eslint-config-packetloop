@@ -14,7 +14,7 @@ module.exports = {
     'react/no-direct-mutation-state': 2,
     'react/no-string-refs': 2,
     'react/no-multi-comp': 0,
-    'react/jsx-filename-extension': [2, {'extensions': ['.js']}],
+    'react/jsx-filename-extension': [2, {extensions: ['.js']}],
 
 
     // A11y

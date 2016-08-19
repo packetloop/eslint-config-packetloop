@@ -5,9 +5,9 @@ module.exports = {
     './rules/react'
   ].map(require.resolve),
   rules: {},
-  "parserOptions": {
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
+  parserOptions: {
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true
     }
   }
 };

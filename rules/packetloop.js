@@ -34,7 +34,7 @@ module.exports = {
     // TODO: switch on
     'import/order': [
       0, {
-        'groups': [
+        groups: [
           'builtin',
           'external',
           'internal',
